@@ -18,10 +18,10 @@ const CONFIG = {
 
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: 'Sylearn',
-  HEO_HERO_TITLE_2: '分享知识和笔记',
-  HEO_HERO_TITLE_3: 'blog.sylearn.cn',
-  HEO_HERO_TITLE_4: '欢迎访问',
-  HEO_HERO_TITLE_5: '🎉 欢迎来到我的博客！',
+  HEO_HERO_TITLE_2: '知识分享与闲谈随笔',
+  HEO_HERO_TITLE_3: 'https://blog.sylearn.cn',
+  HEO_HERO_TITLE_4: '蘇雲：',
+  HEO_HERO_TITLE_5: '🎉 欢迎光临我的博客！',
   HEO_HERO_TITLE_LINK: 'https://blog.sylearn.cn',
 
   // 英雄区显示三个置顶分类
@@ -114,8 +114,8 @@ const CONFIG = {
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
   HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  HEO_SOCIAL_CARD_TITLE_3: '点击加入社群(未上线)',
-  HEO_SOCIAL_CARD_URL: 'https://blog.sylearn.cn',
+  HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
+  HEO_SOCIAL_CARD_URL: 'https://qm.qq.com/q/DKzYHpXReM',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
