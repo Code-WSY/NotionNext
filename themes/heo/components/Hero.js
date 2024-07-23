@@ -90,7 +90,7 @@ function Banner(props) {
       </div>
 
       {/* 斜向滚动的图标 */}
-      {/* <TagsGroupBar /> // 该组件在这里被注释掉了*/}  
+       <TagsGroupBar /> // 该组件在这里被注释掉就不会有滚动图标 组件图标在public/images/heo
 
       {/* 遮罩 */}
       <div
