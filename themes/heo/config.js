@@ -21,7 +21,7 @@ const CONFIG = {
   HEO_HERO_TITLE_2: '分享知识和笔记',
   HEO_HERO_TITLE_3: 'blog.sylearn.cn',
   HEO_HERO_TITLE_4: '欢迎访问',
-  HEO_HERO_TITLE_5: '🎉 欢迎来到我的博客，这里是我的学习笔记和技术分享，希望能帮助到你！',
+  HEO_HERO_TITLE_5: '🎉 欢迎来到我的博客！\n这里是我的学习笔记、技术分享和闲谈随笔。\n希望能帮助到你！😊\n\n🔍 知识笔记\n🏃 个人项目\n🏠 智能家居\n🤖 数码科技\n\n👇 点击下方按钮了解更多',
   HEO_HERO_TITLE_LINK: 'https://blog.sylearn.cn',
 
   // 英雄区显示三个置顶分类
