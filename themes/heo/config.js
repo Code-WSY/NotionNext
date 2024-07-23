@@ -54,20 +54,20 @@ const CONFIG = {
   // 用户技能图标
   HEO_GROUP_ICONS: [
     {
+      title_2: 'AI',
+      img_2: '/images/heo/AI.webp',
+      color_2: '#42210d',
       title_1: 'Manchine Learning',
       img_1: '/images/heo/ML.webp',
       color_1: '#ffffff',
-      title_2: 'AI',
-      img_2: '/images/heo/AI.webp',
-      color_2: '#42210d'
     },
     {
       title_1: 'Docker',
       img_1: '/images/heo/docker.webp',
       color_1: '#57b6e6',
-      title_2: 'javascript',
-      img_2: '/images/heo/javascript.webp',
-      color_2: '#4082c3'
+      title_2: 'AIs',
+      img_2: '/images/heo/AIs.webp',
+      color_2: '#003666'
     },
     {
       title_1: 'jupyter',
