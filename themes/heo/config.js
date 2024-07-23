@@ -56,10 +56,10 @@ const CONFIG = {
     {
       title_1: 'Manchine Learning',
       img_1: '/images/heo/ML.webp',
-      color_1: '#989bf8',
-      title_2: 'linux',
-      img_2: '/images/heo/linux.webp',
-      color_2: '#ffffff'
+      color_1: '#ffffff',
+      title_2: 'AI',
+      img_2: '/images/heo/AI.webp',
+      color_2: '#003C83'
     },
     {
       title_1: 'Docker',
@@ -83,7 +83,7 @@ const CONFIG = {
       color_1: '#eb6840',
       title_2: 'openai',
       img_2: '/images/heo/openai.webp',
-      color_2: '#8f55ba'
+      color_2: '#ffffff',
     },
     {
       title_1: 'Docker',
