@@ -90,7 +90,7 @@ function Banner(props) {
       </div>
 
       {/* 斜向滚动的图标 */}
-      <TagsGroupBar />
+      {/* <TagsGroupBar /> // 该组件在这里被注释掉了*/}  
 
       {/* 遮罩 */}
       <div
