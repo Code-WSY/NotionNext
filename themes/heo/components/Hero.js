@@ -48,9 +48,10 @@ function BannerGroup(props) {
     // 左侧英雄区
     <div
       id='bannerGroup'
-      className='flex flex-col justify-between flex-1 mr-2 max-w-[42rem]'>
-      {/* 动图 */}
+      className='flex flex-col justify-between flex-1 mr-2 max-w-[42rem]'> 留白
+      {/* 动图 
       <Banner {...props} />
+      */}
       {/* 导航分类 */}
       <GroupMenu />
     </div>
@@ -62,8 +63,8 @@ function BannerGroup(props) {
  * @returns
  */
 function Banner(props) {
-  const router = useRouter()
-  const { allNavPages } = props
+  const router = useRouter() // 路由
+  const { allNavPages } = props // 所有文章
   /**
    * 随机跳转文章
    */
@@ -76,7 +77,7 @@ function Banner(props) {
   return (
     <div
       id='banners'
-      onClick={handleClickBanner}
+      onClick={handleClickBanner} // 点击banner跳转到随机文章，如果希望不跳转，可以注释掉
       className='hidden xl:flex xl:flex-col group h-full bg-white dark:bg-[#1e1e1e] rounded-xl border dark:border-gray-700 mb-3 relative overflow-hidden'>
 
       <div id='banner-title' className='flex flex-col absolute top-10 left-10'>
@@ -93,7 +94,7 @@ function Banner(props) {
       {/* 斜向滚动的图标 该组件在这里被注释掉就不会有滚动图标 组件图标在public/images/heo*/}
        <TagsGroupBar /> 
 
-      {/* 遮罩 
+      {/* 遮罩 */}
       <div
         id='banner-cover'
         style={{ backdropFilter: 'blur(15px)' }}
@@ -110,7 +111,7 @@ function Banner(props) {
           </div>
         </div>
       </div>
-    */}
+    
     </div>
   )
 }
@@ -126,6 +127,7 @@ function TagsGroupBar() {
 
   return (
     <div className='tags-group-all flex -rotate-[0deg] h-full'>
+
       <div className='tags-group-wrapper flex flex-nowrap absolute top-16'>
         {groupIcons?.map((g, index) => {
           return (
