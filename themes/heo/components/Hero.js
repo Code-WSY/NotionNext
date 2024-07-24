@@ -126,8 +126,7 @@ function TagsGroupBar() {
 
   return (
     <div className='tags-group-all flex flex-nowrap -rotate-[0deg] h-full'>
-      {/* 滚动的图标组 从flex-nowrap到 flex-col  */}
-      {/*//ml-6 左右间距，select-none禁止选中*/}
+      {/* 控制图标的排布 */}
       <div className='tags-group-wrapper grid grid-cols-2 gap-2 absolute top-16 right-6'>  
         {groupIcons?.map((g, index) => {
           return (
