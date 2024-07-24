@@ -127,14 +127,14 @@ function TagsGroupBar() {
   return (
     <div className='tags-group-all flex flex-col -rotate-[0deg] h-full'>
       {/* 滚动的图标组 从flex-nowrap到 flex-col ,即从横向滚动到纵向滚动 */}
-      <div className='tags-group-wrapper flex flex-wrap absolute top-16'>
+      <div className='tags-group-wrapper flex flex-wrap absolute top-20'>
         {groupIcons?.map((g, index) => {
           return (
-            <div key={index} className='tags-group-icon-pair ml-6 select-none'>
+            <div key={index} className='tags-group-icon-pair ml-6 select-none'> //ml-6 左右间距，select-none禁止选中，上下间距是通过tags-group-wrapper的top-16来控制
               <div
                 style={{ background: g.color_1 }}
                 className={
-                  'tags-group-icon w-28 h-28 rounded-3xl flex items-center justify-center text-white text-lg font-bold shadow-md'
+                  'tags-group-icon w-20 h-20 rounded-3xl flex items-center justify-center text-white text-lg font-bold shadow-md' //items-center justify-center分别是垂直居中和水平居中
                 }>
                 <LazyImage
                   priority={true}
@@ -146,7 +146,7 @@ function TagsGroupBar() {
               <div
                 style={{ background: g.color_2 }}
                 className={
-                  'tags-group-icon  mt-5 w-28 h-28 rounded-3xl flex items-center justify-center text-white text-lg font-bold shadow-md'
+                  'tags-group-icon  mt-5 w-20 h-20 rounded-3xl flex items-center justify-center text-white text-lg font-bold shadow-md'
                 }>
                 <LazyImage
                   priority={true}
