@@ -126,8 +126,8 @@ function TagsGroupBar() {
 
   return (
     <div className='tags-group-all flex -rotate-[0deg] h-full'>
-
-      <div className='tags-group-wrapper flex flex-nowrap absolute top-16'>
+      {/* 滚动的图标组 从flex-nowrap到 flex-col ,即从横向滚动到纵向滚动 */}
+      <div className='tags-group-wrapper flex flex-col absolute top-16'>
         {groupIcons?.map((g, index) => {
           return (
             <div key={index} className='tags-group-icon-pair ml-6 select-none'>
@@ -140,7 +140,7 @@ function TagsGroupBar() {
                   priority={true}
                   src={g.img_1}
                   title={g.title_1}
-                  className='w-2/3 hidden xl:block'
+                  className='w-2/3 hidden xl:block' 
                 />
               </div>
               <div
