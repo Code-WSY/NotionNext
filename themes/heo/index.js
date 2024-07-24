@@ -55,7 +55,7 @@ const LayoutBase = props => {
   const { fullWidth, isDarkMode } = useGlobal()
   const router = useRouter()
 
-  const headerSlot = (
+  const headerSlot = ( 
     <header>
       {/* 顶部导航 */}
       <Header {...props} />
