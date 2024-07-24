@@ -48,7 +48,7 @@ function BannerGroup(props) {
     // 左侧英雄区
     <div
       id='bannerGroup'
-      className='flex flex-col justify-between flex-1 mr-2 max-w-[42rem]'> 留白
+      className='flex flex-col justify-between flex-1 mr-2 max-w-[42rem]'> 
       {/* 动图*/}
       <Banner {...props} />
       
