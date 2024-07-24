@@ -125,10 +125,10 @@ function TagsGroupBar() {
   )
 
   return (
-    <div className='tags-group-all flex flex-col -rotate-[0deg] h-full'>
-      {/* 滚动的图标组 从flex-nowrap到 flex-col ,即从横向滚动到纵向滚动 */}
+    <div className='tags-group-all flex flex-nowrap -rotate-[0deg] h-full'>
+      {/* 滚动的图标组 从flex-nowrap到 flex-col  */}
       {/*//ml-6 左右间距，select-none禁止选中*/}
-      <div className='tags-group-wrapper grid grid-cols-2 gap-4 absolute top-16 right-1'>  
+      <div className='tags-group-wrapper grid grid-cols-2 gap-2 absolute top-16 right-6'>  
         {groupIcons?.map((g, index) => {
           return (
             <div key={index} className='tags-group-icon-pair ml-6 select-none'> 
@@ -163,6 +163,7 @@ function TagsGroupBar() {
           )
         })}
       </div>
+
     </div>
   )
 }
