@@ -49,9 +49,9 @@ function BannerGroup(props) {
     <div
       id='bannerGroup'
       className='flex flex-col justify-between flex-1 mr-2 max-w-[42rem]'> 留白
-      {/* 动图 
+      {/* 动图*/}
       <Banner {...props} />
-      */}
+      
       {/* 导航分类 */}
       <GroupMenu />
     </div>
@@ -76,10 +76,9 @@ function Banner(props) {
 
   return (
     <div
-      id='banners'
-      onClick={handleClickBanner} // 点击banner跳转到随机文章，如果希望不跳转，可以注释掉
+      id='banners'      
       className='hidden xl:flex xl:flex-col group h-full bg-white dark:bg-[#1e1e1e] rounded-xl border dark:border-gray-700 mb-3 relative overflow-hidden'>
-
+      {/* onClick={handleClickBanner} 点击banner跳转到随机文章 跟在id后面，如果希望不跳转，可以注释掉 */}
       <div id='banner-title' className='flex flex-col absolute top-10 left-10'>
         <div className='text-4xl font-bold mb-3  dark:text-white'>
           {siteConfig('HEO_HERO_TITLE_1', null, CONFIG)}
@@ -94,7 +93,7 @@ function Banner(props) {
       {/* 斜向滚动的图标 该组件在这里被注释掉就不会有滚动图标 组件图标在public/images/heo*/}
        <TagsGroupBar /> 
 
-      {/* 遮罩 */}
+      {/* 遮罩  已注释掉 
       <div
         id='banner-cover'
         style={{ backdropFilter: 'blur(15px)' }}
@@ -111,7 +110,7 @@ function Banner(props) {
           </div>
         </div>
       </div>
-    
+    */}
     </div>
   )
 }
