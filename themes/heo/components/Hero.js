@@ -125,9 +125,9 @@ function TagsGroupBar() {
   )
 
   return (
-    <div className='tags-group-all flex -rotate-[0deg] h-full'>
+    <div className='tags-group-all flex flex-col -rotate-[0deg] h-full'>
       {/* 滚动的图标组 从flex-nowrap到 flex-col ,即从横向滚动到纵向滚动 */}
-      <div className='tags-group-wrapper flex flex-col absolute top-16'>
+      <div className='tags-group-wrapper flex flex-wrap absolute top-16'>
         {groupIcons?.map((g, index) => {
           return (
             <div key={index} className='tags-group-icon-pair ml-6 select-none'>
