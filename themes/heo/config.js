@@ -1,14 +1,13 @@
 const CONFIG = {
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2024-07-22', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2023-10-22', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
     { title: '欢迎来到我的博客', url: 'https://blog.sylearn.cn' },
-    { title: 'Jupyter', url: 'http://jupyter.sylearn.cn' },
-    { title: 'AI', url: 'https://chat.sylearn.cn' },
-
+    { title: '我的知乎主页', url: 'https://www.zhihu.com/people/wang-su-yun-69' },
+    { title: '我的github主页', url: 'https://github.com/Code-WSY' },
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -18,7 +17,7 @@ const CONFIG = {
 
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: 'Sylearn',
-  HEO_HERO_TITLE_2: '知识分享与闲谈随笔',
+  HEO_HERO_TITLE_2: '技术与知识分享',
   HEO_HERO_TITLE_3: 'https://blog.sylearn.cn',
   HEO_HERO_TITLE_4: '蘇雲：',
   HEO_HERO_TITLE_5: '🎉 欢迎光临我的博客！',
@@ -39,7 +38,7 @@ const CONFIG = {
     '你好！我是 Sylearn',
     '🔍 分享与热心帮助',
     '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
+    //'🏠 智能家居小能手',
     '🤖️ 数码科技爱好者',
   ],
 
@@ -113,9 +112,10 @@ const CONFIG = {
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
-  HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  HEO_SOCIAL_CARD_URL: 'https://qm.qq.com/q/DKzYHpXReM',
+  HEO_SOCIAL_CARD_TITLE_2: '目前未开通社群讨论分享',
+  HEO_SOCIAL_CARD_TITLE_3: '点击访问主页',
+  HEO_SOCIAL_CARD_URL: 'https://blog.sylearn.cn',
+  //HEO_SOCIAL_CARD_URL: 'https://qm.qq.com/q/DKzYHpXReM',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
